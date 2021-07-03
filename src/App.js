@@ -9,9 +9,6 @@ function App() {
   function showWidget() {
     setopen(true);
   }
-  function fun() {
-    alert('done');
-  }
 
   return (
     <div className="App">
