@@ -54,6 +54,10 @@
   width: 100%;
   font-size: 1rem;
 }
+#kyc_widget span.fname {
+  font-size: 0.7rem;
+  color: #c4c4c4;
+}
 #kyc_widget .uploadBtn:hover {
   background-color: #2e4e8a;
 }
@@ -61,6 +65,7 @@
 p {
   font-size: 0.9rem;
   color: #c4c4c4;
+  margin-bottom: 0.5rem;
 }
 
 h2 {
@@ -95,5 +100,17 @@ h2 {
   background: linear-gradient(90deg, #3576f3, #3548f3);
   color: #fff;
   padding: 5px 30px;
-  min-width: 150px;
+  min-width: 180px;
+  font-size: 1.3rem;
+}
+
+#kyc_widget .highlight {
+  text-align: left;
+  padding: 5px 0;
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+#kyc_widget .preview img {
+  height: 150px;
 }

@@ -9,6 +9,9 @@ function App() {
   function showWidget() {
     setopen(true);
   }
+  function fun() {
+    alert('done');
+  }
 
   return (
     <div className="App">
@@ -18,7 +21,7 @@ function App() {
         <span className="App-link" onClick={showWidget}>
           Open Widget
         </span>
-        {open && <Widget />}
+        {open && <Widget trigger={setopen} />}
       </header>
     </div>
   );
